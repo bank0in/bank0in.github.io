@@ -119,7 +119,7 @@
 	}
 	.sidedevices .iphoneipad .ipad {
 		width: 740px;
-		height: 440px;
+		height: 492px;
 	}
 	.sidedevices .iphoneipad .ipad:before {
 		left: 23px;
@@ -196,7 +196,7 @@
 		position: relative;
 		margin: 0 20px;
 		display: inline-block;
-		height: 440px;
+		height: 450px;
 		width: 220px;
 		padding: 50px 8px 60px;
 		margin: 0 0 0 20px;
