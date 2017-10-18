@@ -29,33 +29,29 @@ body {
 /*text*/
 .heading {
   font-weight: normal;
-  font-size: 34px;
-  line-height: 1.125;
+  font-size: 32px;
 }
 @media (max-width: 900px) {
 .heading {
     font-size: 24px;
-    line-height: 1.125;
   }
 }
 .subheading {
   font-size: 24px;
-  line-height: 1.125;
   font-weight: normal;
 }
 @media (max-width: 900px) {
   .subheading {
     font-size: 24px;
-    line-height: 1.125;
   }
 }
 .paragraph {
   font-size: 14px;
-  line-height: 1.5;
-  font-weight: normal;
+  line-height: 1.7;
+  font-weight: 300;
 }
 .heading + .paragraph {
-  margin-top: 30px;
+  margin-top: 24px;
 }
 .subheading + .paragraph {
   margin: 10px 0 24px;
@@ -66,11 +62,11 @@ p.paragraph {
 .logo {
 	display: inline-block;
 	width: auto;
-	height: 40px;
+	height: 32px;
 	margin: 0 0 8px;
 }
 .logo img {
-	max-height: 40px;
+	max-height: 32px;
 	max-width: 100%;
 }
 @media (max-width: 420px) {
@@ -84,8 +80,8 @@ p.paragraph {
 .nav-link2,
 .nav-link {
   text-decoration: none;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 14px;
+  line-height: 2;
   color: inherit;
 }
 .nav-link:not(:first-of-type) {
@@ -272,7 +268,7 @@ p.paragraph {
 	padding: 0 30px;
 	background: #68c0f8;
 	border-radius: 3px;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: .3px;
