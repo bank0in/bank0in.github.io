@@ -1,13 +1,13 @@
 /*fun*/
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 * {
-	font-family: 'karla', sans-serif;
+	font-family: 'Roboto Mono', sans-serif;
 }
 .heading,
 .heading *,
 .subheading,
 .subheading * {
-	font-family: 'Varela Round', serif;
+	font-family: 'Roboto Mono', serif;
 }.footer,
 .header {
 	background: #2c398f;
@@ -16,7 +16,7 @@
 }
 .ctas-button {
 	color: #fff;
-}@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+}@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
 *,
 *:before,
 *:after {
@@ -28,37 +28,37 @@ body {
 }
 /*text*/
 .heading {
-  font-weight: 100;
-  font-size: 50px;
+  font-weight: normal;
+  font-size: 34px;
   line-height: 1.125;
 }
 @media (max-width: 900px) {
 .heading {
-    font-size: 32px;
+    font-size: 24px;
     line-height: 1.125;
   }
 }
 .subheading {
-  font-size: 30px;
-  line-height: 40px;
-  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.125;
+  font-weight: normal;
 }
 @media (max-width: 900px) {
   .subheading {
-    font-size: 26px;
-    line-height: 35px;
+    font-size: 24px;
+    line-height: 1.125;
   }
 }
 .paragraph {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 100;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: normal;
 }
 .heading + .paragraph {
   margin-top: 30px;
 }
 .subheading + .paragraph {
-  margin-top: 10px;
+  margin: 10px 0 24px;
 }
 p.paragraph {
   color: rgba(0,0,0,.5);
@@ -230,8 +230,8 @@ p.paragraph {
 	line-height: 38px;
 	padding: 0 30px;
 	background: #68c0f8;
-	border-radius: 3px;
-	font-size: 15px;
+	border-radius: 2px;
+	font-size: 14px;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: .3px;
@@ -346,7 +346,7 @@ p.paragraph {
 	z-index: 9999;
 }
 .feature5 .emoji b {
-	font-size: 40px;
+	font-size: 34px;
 }
 .feature5 .steps:not(:last-of-type) {
 	margin-bottom: 20px;
@@ -357,7 +357,7 @@ p.paragraph {
 		margin-top: 60px;
 	}
 	.feature5 .heading {
-		margin-bottom: 50px;
+		margin-bottom: 48px;
 	}
 	.feature5 .flex {
 		flex-direction: column;
@@ -403,7 +403,9 @@ p.paragraph {
 	border-bottom: 1px solid rgba(0,0,0,.1);
 }
 .feature3 .emoji {
-	font-size: 55px;
+	font-size: 34px;
+	display: block;
+	margin-bottom: 16px;
 	color: black
 }
 @media (max-width: 750px) {
